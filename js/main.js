@@ -4,7 +4,8 @@ var app = new Vue(
     data: {
       message: "Hello Vue!",
       src: "./img/vue.png",
-      alt: "vue_image"
+      alt: "vue_image",
+      date: "You loaded this page on " + new Date().toLocaleString()
     }
   }
   )
