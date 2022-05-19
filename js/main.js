@@ -1,8 +1,10 @@
 var app = new Vue(
     {
-    el: '#app',
+    el: "#app",
     data: {
-      message: 'Hello Vue!'
+      message: "Hello Vue!",
+      src: "./img/vue.png",
+      alt: "vue_image"
     }
   }
   )
